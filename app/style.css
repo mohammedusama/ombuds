@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.sidebar {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: #F8F8F8;
+    opacity: 20%;
+}
+
+.main {
+    top: 10px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1.3em;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p, li {
+    font-weight: 300;
+}
+.panel-heading {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.panel-default >.panel-heading >a {
+    text-decoration: none;
+    color: #666;
+}
+.panel-default >.panel-heading >a:hover {
+    text-decoration: none;
+}
+.panel-default >.panel-heading >a >h3 {
+    font-size: 1.3em;
+}
+
+.panel-body {
+    color: #999;
+}
+
+.modal-header {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.survey {
+    text-align: center;
+    margin-top: 40px;
+}
